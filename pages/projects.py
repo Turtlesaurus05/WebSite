@@ -3,11 +3,15 @@ import streamlit as st
 
 st.set_page_config(page_title="Projects", page_icon=":blue_heart:", layout="wide")
 
-st.markdown("# My projects!")
-st.write(
-    """ Welcome to my projects   
-    """
-)
+
+_right, mid = st.columns([1,1])
+with _right:
+    st.title("Welcome to my projects")
+with mid:
+    st.markdown("![Alt Text](https://media4.giphy.com/media/ukMiDlCmdv2og/giphy.gif?cid=ecf05e472grb5svh58vsuxxe6zx3ihaywkif7kzcd161rqr0&rid=giphy.gif&ct=g)")
+
+
+
 with st.container():
     st.write("---")
     st.write("##")
@@ -37,4 +41,3 @@ with st.container():
 
 
 
-#Sidebar list:

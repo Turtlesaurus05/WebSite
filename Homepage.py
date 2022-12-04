@@ -1,11 +1,11 @@
 import streamlit as st
-
+bottom_image = "https://images.vexels.com/media/users/3/246391/isolated/preview/73f72c0a6b0a9d4c1629b720e77a4dbe-western-welcome-sign.png"
 st.set_page_config(
     page_title="Multipage",
     page_icon=":house:"
 )
 
-st.title("Welcome! :wave: ")
+st.image(bottom_image, width=500)
 
 
 with st.container():
@@ -15,4 +15,3 @@ with st.container():
     st.write(" The languages that i am the best at are probaply Python, html and C#")
     st.write("In my free time i like to practice my python skills to be a pythong pro :sunglasses:")
     st.write("---")
-
