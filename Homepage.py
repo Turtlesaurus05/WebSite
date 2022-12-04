@@ -1,7 +1,7 @@
 import streamlit as st
 bottom_image = "https://images.vexels.com/media/users/3/246391/isolated/preview/73f72c0a6b0a9d4c1629b720e77a4dbe-western-welcome-sign.png"
 st.set_page_config(
-    page_title="Multipage",
+    page_title="¨My app",
     page_icon=":house:"
 )
 
